@@ -1,11 +1,10 @@
 <?php
 /*
- * contact_nocc module: Removes CC checkbox from Drupal 5 contact forms
+ * contact_nocc module: Removes CC checkbox from Drupal 6 contact forms
  * Copyright (C) Wesley Tanaka <http://wtanaka.com>.  Licensed under
  * the GPL <http://gnu.org/copyleft/gpl.html>
- * $Id: contact_nocc.module 7407 2007-04-15 12:20:58Z wtanaka $
  */
-function contact_nocc_form_alter($form_id, &$form)
+function contact_nocc_form_alter(&$form, $form_state, $form_id)
 {
    if ($form_id == 'contact_mail_page' || $form_id == 'contact_mail_user')
    {
