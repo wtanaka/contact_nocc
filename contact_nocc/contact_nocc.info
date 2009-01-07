@@ -1,0 +1,4 @@
+; $Id: contact_nocc.info 7407 2007-04-15 12:20:58Z wtanaka $
+name = Contact No CC
+description = "Turn off CC checkbox on contact form"
+package = "Wesley Tanaka's Modules"
